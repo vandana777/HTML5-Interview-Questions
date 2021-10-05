@@ -14,6 +14,7 @@ Adding New attributes.
 Allow offline editing.
 Support (Web SQL), – A common standard for storing data in SQL databases.
 Support Protocol and MIME handler registration.
+
 Q #2) What is the difference between HTML and HTML5?
 
 Answer: Difference between HTML and HTML5 are given below:
@@ -29,6 +30,7 @@ Allows drag and drop effect.	Does not allow drag and drop effect.
 Attributes of Async, charset, and ping are available.	These attributes are not available in HTML.
 HTML5 support javascript to run in the background.	Does not support javascript to run within the web browser.
 We can draw shapes like rectangle, circle, and triangle in HTML5.	It is not possible to draw shapes like rectangle, circle, triangle etc.
+
 Q #3) What is <!DOCTYPE>? What are the different types of <!DOCTYPE> that are available?
 
 Answer: The <!DOCTYPE> declaration provides instruction to the web browser to understand what information it should be display, and the need to start with <!DOCTYPE> declaration. In HTML5, DOCTYPE declaration is very short, and case-insensitive, and <!DOCTYPE html> is written at the top of every HTML5 page.
@@ -43,6 +45,7 @@ There are 3 types of DOCTYPES as mentioned below:
 Strict Doctype
 Frameset Doctype
 Transitional Doctype
+
 Q #4) What are the New tags in Media Elements in HTML5?
 
 Answer: The new tags in Media Elements in HTML5 are enlisted below:
@@ -52,6 +55,7 @@ Answer: The new tags in Media Elements in HTML5 are enlisted below:
 <source>: Apply for multiple media resources in media elements, such as audio, video, picture etc.
 <embed>: Apply for an external application or embedded content (a plug-in).
 <track>: Apply for text tracks in the media elements such as video or audio. This tag is used for subtitles or caption files while the video media is playing.
+ 
 Q #5) What is a tag in HTML5?
 
 Answer: A tag is a special content in HTML5, which is surrounded by an angle bracket (<,>). A slash (/) symbol is used to close the tag after completing the block.
@@ -157,6 +161,7 @@ Example: print a²+2b+5=0 using HTML5 code.
 Note: If MathML is used by an application that conforms to the Namespace in an XML Recommendation, then the following namespace should be used:
 
 http://www.w3.org/1998/Math/MathML
+ 
 Q #13) What are the various formatting tags in HTML5?
 
 Answer: HTML5 has some old and new formatting tags as given below:
@@ -168,6 +173,7 @@ Inserted text: Inserts a block of text into a document. We can use <ins> tags to
 Small text: Display inserted text in a small size. We can use <small> tags to implement a small text.
 Superscript text: This is a superscripted text. We can use <sup> tags to implement a superscript text.
 Subscript text: This is a subscripted text. We can use <sub> tags to implement a superscript text.
+ 
 Q #14) Why do we use HTML5?
 
 Answer: HTML5 supports animation, drawing, audio, video, etc and it easily embeds a video on the web page. It does not require any additional software like Flash for watching videos.
@@ -178,6 +184,7 @@ Legacy and cross-browser support
 Better interactions
 Smarter storage
 Cleaner code
+ 
 Q #15) What is a hyperlink? Does it only apply to text?
 
 Answer: The hyperlink is a link that allows a user to move from one web page to another web page when clicked. Hyperlink concept is used on text and as well as image, and we can convert an image into a link with the help of <a href = “ ”….</a>> tags.
@@ -199,6 +206,7 @@ Example to Create a hyperlink in an image (clickable image) is shown below.
 </a>
 </body>
 </html>
+ 
 Q #16) Explain the concept of web storage in HTML5.
 
 Answer: Web storage provides the facility to store the data of our web applications locally into the user’s browser. It can store up to 10 MB data. Web storage helps to increase the performance of our applications.
@@ -207,6 +215,7 @@ There are two types of web storage that are used to store data locally in HTML5:
 
 Local storage: This stores the data that will not expire or clear automatically when a user closes or reopens a browser.
 Session Storage: This stores data for one session only(i.e, a user who is surfing the internet or website). Once the browser is closed, session data will automatically delete from the web browser.
+ 
 Q #17) Explain Geolocation API in HTML5.
 
 Answer: Geolocation API is used to locate a user’s geographical position.
@@ -243,6 +252,7 @@ Check, if Geolocation is supported or not.
 If Geolocation is supported, run the getCurrentPosition() method. If Geolocation is not supported, display the error message to the user.
 If getCurrentPosition() method is successful, it returns coordinates and functions specified in the parameter.
 The showPosition() function, gets the output – Longitude and Latitude.
+ 
 Q #18) Explain HTML5 Graphics.
 
 Answer: HTML5 supports two types of graphics i.e. Canvas and SVG.
@@ -274,6 +284,7 @@ Example to draw a Rectangle using SVG element is shown below.
 </svg>
 </body>
 </html>
+ 
 Q #19) What are the advantages of using HTML5?
 
 Answer: HTML5 is the advanced version of HTML. HTML5 enables to create easier or interactive websites by embedding video, audio, and graphics on the web page.
@@ -301,6 +312,7 @@ Local File Access
 Application Cache
 Local data storage
 Local SQL databases
+ 
 Q #20) How to create a link that will connect to another web browser page when clicked in HTML5?
 
 Answer: Use the <href> tag to create hyperlinks, and these are used to connect to another web page. We can create hyperlink by using type = <a href = “ url of website”> text</a> tag. When we click the text then, the linked URL of the web page will open.
@@ -317,6 +329,7 @@ For Example, the code below is a link that leads to the Yahoo home page, located
  
 </body>
 </html>
+ 
 Q #21) How many web browsers does HTML5 support?
 
 Answer: Most of the latest versions of Apple Safari, Google Chrome, Opera, Internet Explorer, and Mozilla Firefox are supported by HTML5.
@@ -333,6 +346,7 @@ History API
 Constraint Validation API
 Command API
 Text Track API
+ 
 Q #23) How many tags were removed in HTML5?
 
 Answer: The list of the tags that are removed completely in HTML5 include:
@@ -351,12 +365,14 @@ Answer: The list of the tags that are removed completely in HTML5 include:
 <tt>
 <font>
 <strike>
+ 
 Q #24) Which video and audio formats are used for embedding on web page?
 
 Answer: Formats of video and audio that are used for embedding on the web page are given below:
 
 Video: MPEG4, Ogg, WebM.
 Audio: WAV, Ogg Vorbis, MP3.
+ 
 Q #25) List out the page structure elements of HTML5.
 
 Answer: Page structure elements of HTML5 are given below:
@@ -367,6 +383,7 @@ Answer: Page structure elements of HTML5 are given below:
 <article>: It is a set of information.
 <section>: It is a set of instructions that is used inside the article block to define the basic structure of a page.
 <aside>: Sidebar content of the page.
+ 
 Q #26) Explain some of the common lists to design a web page.
 
 Answer: The common lists to design a web page include:
@@ -414,6 +431,7 @@ Example to Embed an Audio in HTML5:
 </audio>
 </body>
 </html>
+ 
 Q #30) What are the migrated tags from HTML4 to HTML5?
 
 Answer: List of the migrated tags from HTML4 to HTML5 are given below:
@@ -444,6 +462,7 @@ File API
 Web Messaging
 Drag and Drop
 Canvas 2D
+ 
 Q #32) What is the difference between SVG and Canvas elements?
 
 Answer:
@@ -459,6 +478,7 @@ SVG is not suitable for Games graphics.	Canvas is suitable for games graphics.
 SVG does not depend on resolution.	Canvas is completely dependent on resolution.
 SVG is capable for API animation. 	Canvas has no any API for animation.
 SVG is suitable for printing with high quality and any resolution.	Canvas is not suitable for printing high quality and high resolution.
+ 
 Q #33) What is the use of <figure> tag in HTML5?
 
 Answer: The figure tag is used to add an image in the document on a web page.

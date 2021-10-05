@@ -253,7 +253,8 @@ Q #18) Explain HTML5 Graphics.
 
 Answer: HTML5 supports two types of graphics i.e. Canvas and SVG.
 
-a) Canvas: <canvas> element is used to design graphics on the web page, and it has several methods available for drawing circles, boxes, adding images and text. 300 px X 150 px (width X height) is the default pixel size of canvas.
+a) Canvas: <canvas> element is used to design graphics on the web page, and it has several methods available for drawing circles, boxes, adding images and text. 
+300 px X 150 px (width X height) is the default pixel size of canvas.
 
 Example to Draw square Box using canvas element is shown below.
 

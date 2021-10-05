@@ -492,7 +492,6 @@ Q #35) Explain Meta tags.
 Answer: Meta tags are used to provide useful information to our web pages.
 
 Some of the tags include:
-
 Title: Provides a title to the web page.
 Style: Inserts some styles and CSS details to the web page.
 Link: Defines the relationship between one page to another page and an external source.

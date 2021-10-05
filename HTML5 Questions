@@ -196,7 +196,6 @@ Example to Create a hyperlink in an image (clickable image) is shown below.
  
  
  Click the following link 
- 
 <a href = “https://en.wikipedia.org/wiki/HTML5” target = “_self”>
 <img src = “image.png” alt = “Wiki” border = “0/”>
 </a>
